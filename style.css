@@ -16,7 +16,7 @@ body {
 }
 
 
-    /* Top Navigation Bar */
+        /* Top Navigation Bar */
 
 
 .top-bar-gridbox {
@@ -29,11 +29,9 @@ body {
     margin-bottom: 4rem;
 }
 
-
 .top-nav-box {
     grid-column: 2 / 3
 }
-
 
 .logo {
     float: left;
@@ -42,18 +40,15 @@ body {
     padding-left: 0.5rem;
 }
 
-
 .nav-btn {
     margin-left: 4rem;
 }
-
 
 .nav-top {
     float: right;
     padding-top: 2rem;
     padding-bottom: 1.3rem;
 }
-
 
 .nav-top a {
     text-decoration: none;
@@ -64,7 +59,7 @@ body {
 }
 
 
-    /* Main Content */
+        /* Main Content */
 
 
 .wrapper {
@@ -78,6 +73,8 @@ body {
 }
 
 
+    /*image*/
+
 .phone-image {
     grid-column: 1 / 2;
 }
@@ -88,8 +85,106 @@ body {
 }
 
 
+    /*text*/
+
 .main-text {
     grid-column: 2 / 3;
+    padding-left: 120px;
+}
+
+.main-text h2 {
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #999da2;
+    font-weight: 400;
+}
+
+.main-text h1 {
+    text-transform: uppercase;
+    font-size: 56px;
+    color: #ff366a;
+    font-weight: 700;
+}
+
+.paragraph {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 16px;
+    color: #777777;
+    line-height: 1.8rem;
+}
+
+
+    /* list*/
+
+li {
+    border-top: 1px solid #ebebeb;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    list-style: none;
+}
+
+li h4 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ff366a;
+    margin-bottom: 2px;
+}
+
+li p {
+    font-size: 14px;
+    color: #999da2;
+}
+
+.listitem5 {
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 60px;
+}
+
+
+   /*icons in list*/
+
+.listitem1 {
+    background-image: url(images/icon_tags.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.listitem2 {
+    background-image: url(images/icon_cost.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.listitem3 {
+    background-image: url(images/icon_safety.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.listitem4 {
+    background-image: url(images/icon_award.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.listitem5 {
+    background-image: url(images/icon_chat.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.list h4,
+.list p {
+    margin-left: 70px;
+}
+
+
+    /*download button*/       
+
+.download-box {
+    margin-bottom: 20px;
 }
 
 

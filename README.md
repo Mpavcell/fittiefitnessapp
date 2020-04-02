@@ -28,7 +28,11 @@ Building this website went very smoothly and I noticed
 a significant increase in my understanding of HTML and CSS.
 
 CSS Grid, which has been a bit confusing to me in the past, 
-no longer causes confusion.
+no longer causes any confusion.
+
+I have still to get more used to Git. I do not use it properly.
+
+I give bad names to classes.
 
 I intend on making a few more practise websites before 
 starting javaScript.

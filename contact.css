@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1150px 1fr;
+}
+
+
+        /* Top Navigation Bar */
+
+
+.top-bar-gridbox {
+    grid-column: 1 / 4;
+    
+    display: grid;
+    grid-template-columns: 1fr 1150px 1fr;
+
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 50px;
+}
+
+.top-nav-box {
+    grid-column: 2 / 3
+}
+
+.logo {
+    float: left;
+    padding-top: 1.5rem;
+    padding-bottom: 1.3rem;
+    padding-left: 0.5rem;
+}
+
+.nav-btn {
+    margin-left: 4rem;
+}
+
+.nav-top {
+    float: right;
+    padding-top: 2rem;
+    padding-bottom: 1.3rem;
+}
+
+.nav-top a {
+    text-decoration: none;
+    color: #999da2;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+
+        /* Main Content */
+
+
+.wrapper {
+    grid-column: 2 / 3;
+}
+
+.textbox1 h1 {
+    text-transform: uppercase;
+    font-size: 56px;
+    color: #ff366a;
+    font-weight: 700;
+}
+
+.form-gridbox {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+
+    /*written contact information*/
+
+.contact-info {
+    font-size: 16px;
+    color: #999da2;
+}
+
+.adress {
+    padding-left: 50px;
+    margin-top: 50px;
+    background-image: url(images/icon_loc.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.3rem;
+}   
+
+.email {
+    padding-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: url(images/icon_letter.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.5rem;
+}
+
+.phone {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    background-image: url(images/icon_phone.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.5rem;
+}
+
+
+    /*submission form*/
+
+.form {
+    margin-top: 50px;
+    max-width: 100%;
+}
+
+.emailname {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8px;
+}
+
+.emailname input {
+    font-family: inherit;
+    font-size: 16px;
+    border: 2px solid #dadee0;
+    border-radius: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+}
+
+.name-input {
+    background-image: url(images/icon_name.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 1rem;
+    color: #999da2;
+}
+
+.email-input {
+    background-image: url(images/icon_email.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 1rem;
+    color: #999da2;
+    
+}
+
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 8px;
+    font-family: inherit;
+    font-size: 16px;
+    border: 2px solid #dadee0;
+    border-radius: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    background-image: url(images/icon_message.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: 1rem;
+    background-position-y: 0.8rem;
+    color: #999da2;
+
+}
+
+.submitbutton {
+    width: 100%;
+    height: 50px;
+    background-color: #ff366a;
+    font-family: inherit;
+    color: white;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+.submitbutton:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+        /*Footer Content */
+
+
+.footer-bar-gridbox {
+    grid-column: 1 / 4;
+    
+    display: grid;
+    grid-template-columns: 1fr 1150px 1fr;
+
+    border-top: 1px solid #ebebeb;
+    margin-top: 4rem;
+}
+
+.footer-box {
+    grid-column: 2 / 3;
+
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+}
+
+.copyright {
+    float: left;
+}
+
+.copyright p {
+    color: #999da2;
+}
+
+.social-media-buttons {
+    float: right;
+}
+
+.social-button {
+    margin-left: 2rem;
+}

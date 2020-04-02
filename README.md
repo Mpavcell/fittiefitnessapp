@@ -32,7 +32,7 @@ no longer causes any confusion.
 
 I have still to get more used to Git. I do not use it properly.
 
-I give bad names to classes.
+I have to learn to name classes more properly.
 
 I intend on making a few more practise websites before 
 starting javaScript.

@@ -30,7 +30,7 @@ body {
 }
 
 .top-nav-box {
-    grid-column: 2 / 3
+    grid-column: 2 / 3;
 }
 
 .logo {
@@ -261,4 +261,297 @@ li p {
 
 .social-button {
     margin-left: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* Media Queries */
+
+
+@media only screen and (max-width: 1200px) {
+    /*for desktop*/
+
+    body {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .top-bar-gridbox {
+        grid-template-columns: none;
+        padding-left: 15px;
+        padding-right: 15px;
+        display: unset;
+    }
+
+    .top-nav-box {
+        max-width: 100%;
+    }
+
+    .wrapper {
+        max-width: 100%;
+        box-sizing: border-box;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .phone-image img {
+        min-width: 380px;
+    }
+
+    .main-text {
+        padding-left: 70px;
+    }
+
+    .footer-bar-gridbox {
+        grid-template-columns: none;
+        display: unset;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+    
+        
+
+
+        /*MEDIA QUERIES*/
+
+    /*first media query*/
+
+
+
+@media only screen and (max-width: 768px) {
+    /*for larger devices*/
+
+    body {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+
+    .top-bar-gridbox {
+        display: grid;
+        grid-template-columns: none;
+    }
+
+    .top-nav-box {
+        grid-column: unset;
+    }
+
+    .logo {
+        padding-right: 0;
+        float: none;
+    }
+
+    .nav-top {
+        padding: 10px 0px;
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        float: none;
+        border-top: 1px solid #ebebeb;
+    }
+
+    .nav-top a {
+        padding: 8px 0px;
+        margin: auto;
+    }
+
+    /*main content*/
+
+    .wrapper {
+        grid-column: 1 / 2;        
+    }
+
+    .grid-container {
+        display: initial;
+    }
+
+    .phone-image {
+        text-align: center;
+    }
+
+    .phone-image img {
+        max-width: 50%;
+    }
+
+    .main-text {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 10px;
+        padding-top: 30px;
+    }
+
+    .main-text h1 {
+    font-size: 40px;
+    line-height: 56px;
+    }
+
+    .paragraph {
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    .listitem5 {
+        margin-bottom: 60px;
+    }
+
+    .download-box {
+        margin: auto;
+    }
+
+    /*footer*/
+
+    .footer-bar-gridbox {
+        grid-template-columns: none;
+        margin-top: 50px;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .footer-box {
+        grid-column: unset;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .copyright {
+        float: none;
+        
+    }
+
+    .social-media-buttons {
+        float: none;
+        margin-top: 20px;
+    }
+
+
+
+}
+
+
+
+
+        /*second media query*/
+
+
+
+
+@media only screen and (max-width: 480px) {
+    /*for phones*/
+    
+    /*navigation top*/
+
+    body {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+
+    .top-bar-gridbox {
+        display: grid;
+        grid-template-columns: none;
+    }
+
+    .top-nav-box {
+        grid-column: unset;
+    }
+
+    .logo {
+        padding-right: 0;
+        float: none;
+    }
+
+    .nav-top {
+        padding: 10px 0px;
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        float: none;
+        border-top: 1px solid #ebebeb;
+    }
+
+    .nav-top a {
+        padding: 8px 0px;
+        margin: auto;
+    }
+
+    /*main content*/
+
+    .wrapper {
+        grid-column: 1 / 2;        
+    }
+
+    .grid-container {
+        display: initial;
+    }
+
+    .phone-image {
+        text-align: center;
+    }
+
+    .phone-image img {
+        max-width: 70%;
+    }
+
+    .main-text {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 10px;
+        padding-top: 30px;
+    }
+
+    .main-text h1 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .paragraph {
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    .listitem5 {
+        margin-bottom: 60px;
+    }
+
+    .download-box {
+        margin: auto;
+    }
+
+    /*footer*/
+
+    .footer-bar-gridbox {
+        grid-template-columns: none;
+        margin-top: 50px;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .footer-box {
+        grid-column: unset;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .copyright {
+        float: none;
+        
+    }
+
+    .social-media-buttons {
+        float: none;
+        margin-top: 20px;
+    }
 }

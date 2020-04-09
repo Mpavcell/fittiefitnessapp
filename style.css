@@ -273,13 +273,10 @@ li p {
 
 
 
+        /* MEDIA QUERIES */
 
 
-
-
-
-
-        /* Media Queries */
+        
 
 
 @media only screen and (max-width: 1200px) {
@@ -327,9 +324,10 @@ li p {
         
 
 
-        /*MEDIA QUERIES*/
 
-    /*first media query*/
+    /*second media query*/
+
+
 
 
 
@@ -425,6 +423,7 @@ li p {
         grid-column: unset;
         text-align: center;
         padding-top: 30px;
+        padding-bottom: 0;
     }
 
     .copyright {
@@ -444,7 +443,8 @@ li p {
 
 
 
-        /*second media query*/
+        /*third media query*/
+
 
 
 
@@ -543,6 +543,7 @@ li p {
         grid-column: unset;
         text-align: center;
         padding-top: 30px;
+        padding-bottom: 0;
     }
 
     .copyright {

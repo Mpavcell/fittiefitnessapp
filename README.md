@@ -3,6 +3,10 @@ based on the design from an existing template.
 
 --
 
+visit the final website at: https://mpavcell.github.io/fittiefitnessapp/
+
+--
+
 personal notes:
 
 In the past when practicing HTML and CSS I would be losing

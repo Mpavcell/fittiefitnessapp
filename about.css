@@ -522,6 +522,7 @@ body {
             }
         
             .phone-image img {
+                margin-top: 20px;
                 height: 560px;
                 width: auto;
             }
@@ -589,7 +590,7 @@ body {
         
             .footer-bar-gridbox {
                 grid-template-columns: none;
-                margin-top: 80px;
+                margin-top: 40px;
                 display: grid;
                 grid-template-rows: repeat(2, 1fr);
             }

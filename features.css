@@ -236,7 +236,7 @@ body {
             /*MEDIA QUERIES!!*/
 
 
-        @media only screen  and (max-width: 1200px) {
+        @media screen  and (max-width: 1200px) {
                 /*for larger devices*/
              
             body {
@@ -296,7 +296,7 @@ body {
 
 
 
-        @media only screen and (max-width: 850px) {
+        @media screen and (max-width: 850px) {
             .textbox1 h1 {
                 font-size: 45px;
             }
@@ -314,7 +314,7 @@ body {
 
 
 
-        @media only screen and (max-width: 720px) {
+        @media screen and (max-width: 720px) {
             
             body {              
                 display: grid;
@@ -388,7 +388,7 @@ body {
 
 
 
-@media only screen and (max-width: 650px) {
+@media screen and (max-width: 650px) {
 
     .top-bar-gridbox {
         display: grid;
@@ -429,7 +429,7 @@ body {
 
 
 
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
 
   
 

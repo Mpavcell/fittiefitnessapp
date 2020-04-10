@@ -239,7 +239,7 @@ textarea {
                 /*MEDIA QUERIES!!*/
 
 
-        @media only screen  and (max-width: 1200px) {
+        @media screen  and (max-width: 1200px) {
                     /*for larger devices*/
             
             body {
@@ -294,7 +294,7 @@ textarea {
 
 
 
-        @media only screen and (max-width: 850px) {
+        @media screen and (max-width: 850px) {
 
 
             body {
@@ -376,7 +376,7 @@ textarea {
 
 
 
-        @media only screen and (max-width: 720px) {
+        @media screen and (max-width: 720px) {
         
 
             /*nav*/
@@ -476,7 +476,7 @@ textarea {
 
 
 
-        @media only screen and (max-width: 568px) {
+        @media screen and (max-width: 568px) {
 
             .contact-info {
                 display: grid;
@@ -512,7 +512,7 @@ textarea {
 
 
 
-        @media only screen and (max-width: 480px) {
+        @media screen and (max-width: 480px) {
 
             .form {
                 max-width: 300px;

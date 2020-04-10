@@ -215,7 +215,7 @@ body {
         
             /*first media query*/
 
-        @media only screen and (min-width: 720px) and (max-width: 1200px) {
+        @media screen and (min-width: 720px) and (max-width: 1200px) {
             /*for larger devices*/
          
         body {
@@ -294,7 +294,7 @@ body {
 
 
         
-        @media only screen and  (max-width: 719.9px) {
+        @media screen and  (max-width: 719.9px) {
             /*for tablets*/
         
         /*navigation top*/
@@ -458,7 +458,7 @@ body {
         
         
         
-        @media only screen and (max-width: 480px) {
+        @media screen and (max-width: 480px) {
             /*for phones*/
             
 

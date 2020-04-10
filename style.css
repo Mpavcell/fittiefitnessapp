@@ -279,7 +279,7 @@ li p {
         
 
 
-@media only screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     /*for desktop*/
 
     body {
@@ -331,7 +331,7 @@ li p {
 
 
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     /*for larger devices*/
 
     body {
@@ -449,7 +449,7 @@ li p {
 
 
 
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     /*for phones*/
     
     /*navigation top*/

@@ -322,37 +322,7 @@ body {
             }
 
 
-            /*nav*/
-        
-            .top-bar-gridbox {
-                display: grid;
-                grid-template-columns: none;
-                margin-bottom: 20px;
-                padding-left: 15px;
-                padding-right: 15px;   
-            }
-        
-            .top-nav-box {
-                grid-column: unset;
-            }
-        
-            .logo {
-                padding-right: 0;
-                float: none;
-            }
-        
-            .nav-top {
-                padding: 10px 0px;
-                display: grid;
-                grid-template-rows: repeat(4, 1fr);
-                float: none;
-                border-top: 1px solid #ebebeb;
-            }
-        
-            .nav-top a {
-                padding: 8px 0px;
-                margin: auto;
-            }
+            c
 
 
             /*main - text*/

@@ -1,44 +1,23 @@
-With this private project I attempted to create a website
-based on the design from an existing template.
+With this private project I attempted to recreate an existing website without looking at the original source code. The existing website that I set out to recreate was a template I took from Themezy.com. Working like this enables me to focus solely on practicing my code, and focus less on design-specific matters.
+
+DISCLAIMER: This website is a duplicate of an already existing website template which is designed by Themezy.com. I do not claim ownership nor credit for the design and all rights belong to Themezy.com. I have used their template for educational purposes only and again do not claim credit.
 
 --
 
-visit the final website at: https://mpavcell.github.io/fittiefitnessapp/
+This website is a four-page website to promote a fictional Fitness App.
+
+Visit the final website at: https://mpavcell.github.io/fittiefitnessapp/
 
 --
 
-personal notes:
+Personal sidenotes on project:
 
-In the past when practicing HTML and CSS I would be losing
-a lot of time on the design-part. Using an existing template
-takes away the burden and time that goes into having to 
-think about the design the aesthetics myself.  
+Building this website went very smoothly and I noticed a significant increase in my understanding of HTML and CSS.
 
-This allows me to focus solely on practicing my code.
-
-Because coding is still new to me I prefer to spend as much 
-time as possible on the coding part and  spend a minimal
-amount of time on field not related to coding.
-
-In the future when I want to practice my code by building
-practice-websites I will only be using already existing
-templates or psd's as a visual example.
-
---
-
-notes on project:
-
-Building this website went very smoothly and I noticed
-a significant increase in my understanding of HTML and CSS.
-
-CSS Grid, which has been a bit confusing to me in the past, 
-no longer causes any confusion.
+CSS Grid, which has been a bit confusing to me in the past, no longer causes any confusion.
 
 I have still to get more used to Git. I do not use it properly.
 
 I have to learn to name classes more properly.
 
-A big point of attention for me are media queries. I struggled a lot writing proper media queries. Although for the last two pages ("features" and "contact") it went better, I had a very bad time writing proper media queries for the about page. They also seem to be very long and I think hard to read for anyone other than myself. 
-
-I intend on making a few more practise websites before 
-starting javaScript.
+A big point of attention for me are media queries. I struggled a lot writing proper media queries. Although for the last two pages ("features" and "contact") it went better, I had a very bad time writing proper media queries for the about page. They also seem to be very long and I suspect they are hard to read for anyone other than myself. 

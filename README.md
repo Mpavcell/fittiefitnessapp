@@ -1,6 +1,8 @@
-With this private project I attempted to recreate an existing website without looking at the original source code. The existing website that I set out to recreate was a template I took from Themezy.com. Working like this enables me to focus solely on practicing my code, and focus less on design-specific matters.
+With this private project I attempted to recreate/copy an existing website without looking at the original source code and by just looking at the actual site in my browser. The existing website that I set out to recreate was a template I took from Themezy.com. Working like this enables me to focus solely on practicing my code, and focus less on design-specific matters.
 
-DISCLAIMER: This website is a duplicate of an already existing website template which is designed by Themezy.com. I do not claim ownership nor credit for the design and all rights belong to Themezy.com. I have used their template for educational purposes only and again do not claim credit.
+I find that recreating websites without looking at the original code in the way I did here is excellent exercise for a beginning coder such as myself. 
+
+DISCLAIMER: This website is a personal recreation of an already existing website template which is designed by Themezy.com. I do not claim ownership nor credit for the design and all rights belong to Themezy.com. I have used their template for educational purposes only and again do not claim it as my own.
 
 --
 
@@ -12,7 +14,7 @@ Visit the final website at: https://mpavcell.github.io/fittiefitnessapp/
 
 Personal sidenotes on project:
 
-Building this website went very smoothly and I noticed a significant increase in my understanding of HTML and CSS.
+Building this website went smoothly overall and I noticed a significant increase in my understanding of HTML and CSS.
 
 CSS Grid, which has been a bit confusing to me in the past, no longer causes any confusion.
 
